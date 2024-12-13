@@ -22,4 +22,9 @@ public class GoedeDoel {
 	public boolean equals(Object obj) {
 		return obj instanceof GoedeDoel goedeDoel && naam.equalsIgnoreCase(goedeDoel.naam);
 	}
+
+	@Override
+	public int hashCode() {
+		return naam.toUpperCase().hashCode();
+	}
 }

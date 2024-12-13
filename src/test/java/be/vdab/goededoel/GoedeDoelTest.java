@@ -24,4 +24,9 @@ class GoedeDoelTest {
 	void eenNieuwDoelHeeftNogGeenOpbrengst() {
 		assertThat(doel.getOpbrengst()).isZero();
 	}
+
+	@Test
+	void goedeDoelenMetVerschillendeNaamZijnVerschillend() {
+		assertThat(doel).isEqualTo(new GoedeDoel("WWF"));
+	}
 }

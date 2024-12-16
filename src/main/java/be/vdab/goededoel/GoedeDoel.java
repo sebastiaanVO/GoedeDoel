@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 /**
  * Een <strong>goed doel</strong> waarvoor men geld inzamelt
- * @author Sebastiaan Van Overschee
+ * @author Sebastiaan
  */
 public class GoedeDoel {
 	private final String naam;
